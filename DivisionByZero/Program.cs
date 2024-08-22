@@ -13,9 +13,6 @@ char operation = Convert.ToChar(Console.ReadLine());
 
 try
 {
-    int v = 0;
-
-    int g = 10 / v;
     if (operation == '/')
     {
         Console.WriteLine($"Рішенням математичної задачі є: {a / b}");
